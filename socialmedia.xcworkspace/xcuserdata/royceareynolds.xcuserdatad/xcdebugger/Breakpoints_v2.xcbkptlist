@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "socialmedia/Controller/SignInVC.swift"
-            timestampString = "530068283.370094"
+            timestampString = "530498896.568314"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "signInTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>

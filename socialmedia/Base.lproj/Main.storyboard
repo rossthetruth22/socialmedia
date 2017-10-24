@@ -130,11 +130,27 @@
                     <connections>
                         <outlet property="emailField" destination="lvj-Ah-ecH" id="kve-2j-D9B"/>
                         <outlet property="passwordField" destination="3ZK-xv-u3L" id="dkB-gu-nlD"/>
+                        <segue destination="8EX-1s-9X2" kind="show" identifier="goToFeed" id="HpI-xW-lec"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XyW-pJ-xaH">
+            <objects>
+                <viewController id="8EX-1s-9X2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hxg-3R-iyH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="RzN-Jq-gaR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2tP-qk-a6Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="35"/>
         </scene>
     </scenes>
     <resources>
